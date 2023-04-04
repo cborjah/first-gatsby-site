@@ -1,0 +1,25 @@
+/**
+  * Kebab-case class names in .module.css files will automatically be converted to
+  * camel-case variables that you can import in your .js files.
+  */
+
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding-right: 2rem;
+}
+.nav-link-text {
+  color: black;
+}
