@@ -13,5 +13,13 @@ const AboutPage = () => {
   );
 };
 
+/**
+ * Adds a page title to this page utilizing the Gatsby Head API.
+ *
+ * Gatsby includes a built-in Head export that allows you to add elements to the document head of
+ * your pages.
+ */
+export const Head = () => <title>About Me</title>;
+
 // Step 3: Export your component
 export default AboutPage;
