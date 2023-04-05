@@ -6345,7 +6345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-type@npm:^16.5.3":
+"file-type@npm:^16.5.3, file-type@npm:^16.5.4":
   version: 16.5.4
   resolution: "file-type@npm:16.5.4"
   dependencies:
@@ -6459,6 +6459,7 @@ __metadata:
     gatsby: ^5.8.1
     gatsby-plugin-image: ^3.8.0
     gatsby-plugin-sharp: ^5.8.1
+    gatsby-source-filesystem: ^5.8.0
     gatsby-transformer-sharp: ^5.8.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -6975,6 +6976,25 @@ __metadata:
     "@types/sharp": ^0.31.1
     sharp: ^0.31.3
   checksum: 1b76120be25d6f19da66b650e1f4914a3ee27e1bea522761db4f05ab863a0719af189751d17e08f60742d1d1d1dab4d9dde5a1682c8e080b57408649580274d0
+  languageName: node
+  linkType: hard
+
+"gatsby-source-filesystem@npm:^5.8.0":
+  version: 5.8.0
+  resolution: "gatsby-source-filesystem@npm:5.8.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    chokidar: ^3.5.3
+    file-type: ^16.5.4
+    fs-extra: ^11.1.0
+    gatsby-core-utils: ^4.8.0
+    mime: ^3.0.0
+    pretty-bytes: ^5.6.0
+    valid-url: ^1.0.9
+    xstate: ^4.35.3
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: 4a8ebf29f444cfcae61074f7f8cb1c98d6bad13e5f60d57c18c5934e70c68d910d7606773f0675b9f16e5ea1190aa7285dd3a7b119ea1daa23457193439dcd68
   languageName: node
   linkType: hard
 
@@ -10646,6 +10666,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pretty-bytes@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "pretty-bytes@npm:5.6.0"
+  checksum: 9c082500d1e93434b5b291bd651662936b8bd6204ec9fa17d563116a192d6d86b98f6d328526b4e8d783c07d5499e2614a807520249692da9ec81564b2f439cd
+  languageName: node
+  linkType: hard
+
 "pretty-error@npm:^2.1.2":
   version: 2.1.2
   resolution: "pretty-error@npm:2.1.2"
@@ -12774,6 +12801,13 @@ __metadata:
   version: 2.3.0
   resolution: "v8-compile-cache@npm:2.3.0"
   checksum: adb0a271eaa2297f2f4c536acbfee872d0dd26ec2d76f66921aa7fc437319132773483344207bdbeee169225f4739016d8d2dbf0553913a52bb34da6d0334f8e
+  languageName: node
+  linkType: hard
+
+"valid-url@npm:^1.0.9":
+  version: 1.0.9
+  resolution: "valid-url@npm:1.0.9"
+  checksum: 3ecb030559404441c2cf104cbabab8770efb0f36d117db03d1081052ef133015a68806148ce954bb4dd0b5c42c14b709a88783c93d66b0916cb67ba771c98702
   languageName: node
   linkType: hard
 
