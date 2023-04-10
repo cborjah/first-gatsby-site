@@ -16,6 +16,9 @@ import Seo from "../components/seo";
  * This plugin allows use of MDX, a file format that allows Markdown and JSX alongside your text
  * content.
  *
+ * When transformer plugins create a new node, they add a parent field that references back to the
+ * original source node it was created from. For example, when gatsby-plugin-mdx creates new MDX
+ * nodes, it adds a parent field which you can use to access data from the original File node.
  */
 
 const IndexPage = () => {
