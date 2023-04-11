@@ -51,8 +51,6 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
 
-  console.log("Data", data);
-
   return (
     <div className={container}>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
